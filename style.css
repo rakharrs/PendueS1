@@ -1,0 +1,74 @@
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+table {
+	table-layout: fixed;
+	border-style: hidden;
+}
+table td {
+	overflow: hidden;
+	width: 50px;
+		border-style:hidden;
+	border-bottom-style: solid;
+}
+popo{
+	text-decoration-line: underline;
+}
+.end {
+	margin-top: 20px;
+	margin-left: 70px;
+}
+#case {
+	width: 25px;
+	height: 25px;
+	position: relative;
+	top: 10px;
+
+}
+#base {
+	width: 30%;
+	height: 50%;
+	margin-top: 250px;
+	margin-left: 250px;
+	margin-right: auto;
+	padding: 40px;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+#cose{
+	position: relative;
+	top:10px;
+	border-style:outset 2px;
+}
+#input{
+	margin-top: 20px;
+	margin-left: 70px;
+}
+#styletd{
+	text-align: center;
+	height:30px;
+	width: 50px;
+	
+}
+#sary{
+	float: right;
+	position: relative;
+	bottom: 50px;
+	transition-duration: 2s;
+	transition-delay: 1s;
+}
+#foot{
+	text-align: center;
+	width: 90%;
+	border-radius: 10px;
+	color: white;
+	height: 25px;
+	position: absolute;
+	right: 50px;
+	bottom: 0;
+	background-color: #222222;
+	margin-left: auto;
+	margin-right: auto;
+}
